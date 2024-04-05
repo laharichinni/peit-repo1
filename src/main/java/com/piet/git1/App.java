@@ -14,6 +14,10 @@ public class App
 	{
 		System.out.println("eating");
 	}
+	public void sleep()
+	{
+		System.out.println("sleeping");
+	}
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
