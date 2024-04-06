@@ -8,18 +8,15 @@ public class App
 {
 	public void addData(String data)
 	{
-		System.out.println("data="+data);
+		System.out.println("data=" +data);
+		if (data.equals("laharie"))
+		{
+			System.out.println("bye");
+		}
 	}
-	public void eat() 
+	public static void main(String[]args)
 	{
-		System.out.println("eating");
+		System.out.println("Hello World");
+		
 	}
-	public void sleep()
-	{
-		System.out.println("sleeping");
-	}
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
 }
